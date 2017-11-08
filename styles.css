@@ -1,0 +1,91 @@
+         .navbar-login {
+            width: 305px;
+            padding: 10px;
+            padding-bottom: 0px;
+        }
+        .navbar-default {
+            background: white !important;
+            color: black !important;
+            border: 0px solid white;
+        }
+        .navbar-brand {
+            color: black !important;
+        }
+        .navbar-nav>li>a {
+            color: black !important;
+        }
+        .navbar-login-session {
+            padding: 10px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+
+        .icon-size {
+            font-size: 87px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+        }
+
+        .test:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 70%;
+            font-weight: bold;
+        }
+
+        .arrowright {
+            position: absolute;
+            top: 45%;
+            left: 100%;
+            transform: translate(-45%, -100%);
+        }
+
+        .owl-next {
+            position: absolute;
+            top: 50%;
+            left: 97%;
+            transform: translate(-50%, -97%);
+            background: none !important;
+            color: #191919 !important;
+        }
+
+        .owl-prev {
+            position: absolute;
+            top: 50%;
+            left: 3%;
+            transform: translate(-50%, -97%);
+            background: none !important;
+            color: #191919 !important;
+        }
+
+        .display-none {
+            display: none;
+        }
+
+        .owl-dots {
+            display: none !important;
+        }
+
+        .item { transition: all .2s ease-in-out; }
+        .item:hover img{  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);}
